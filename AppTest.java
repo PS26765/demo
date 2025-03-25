@@ -22,7 +22,7 @@ public class AppTest {
 	@Test
 	public void testIsEvenNumber4() {
 		App demo1 = new App();
-		boolean result = demo1.isEvenNumber(4);
+		boolean result = demo1.isEvenNumber(3);
 		assertTrue(result);
 	}
 }
