@@ -18,7 +18,7 @@ public class CaculatorTest {
 		@Test
 		public void testAssertNotEquals() {
 			int expected_result = 6;
-			int actual_result = cal.subtract(6, 2);
+			int actual_result = cal.subtract(4, 2);
 			assertNotEquals(expected_result, actual_result);
 		}
 		
